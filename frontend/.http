@@ -1,0 +1,7 @@
+POST https://jaykishan.app.n8n.cloud/webhook-test/test 
+Content-Type: application/json 
+
+{
+    "name": "Jay kishan ", 
+    "email": "jaykishankharwar215@gmail.com"
+}
