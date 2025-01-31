@@ -31,7 +31,7 @@ function App() {
       {/* Main content with conditional blur */}
       <div className={`${loading ? "blur-sm" : "blur-none"} transition duration-300`}>
         <div className="flex justify-center">
-          <div className="flex justify-between flex-wrap p-6 pt-12 pb-0 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%]">
+          <div className="flex justify-between flex-wrap p-6 pt-12 pb-0 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%] sm:mb-0 mb-6">
             <h1 className="font-semibold text-xl mb-4">Hi, I'm Jay Kishan</h1>
             <div className='flex gap-4'>
               <a href="https://www.linkedin.com/in/jay-kishan-kharwar/"  target={"_blank"} rel="noreferrer">
@@ -59,8 +59,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="text-[#737373] flex justify-center ">
-          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] max-w-[80%]'>
+        <div className="text-[#737373] flex justify-center  ">
+          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%]'>
             <ul className="flex list-disc ml-4 flex-col gap-2 text-[14px] font-normal">
               <li>I'm a full-stack developer from India.</li>
               <li>Currently exploring GenAI and Automation</li>
@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
         <div className="text-[#737373] flex justify-center mt-5 ">
-          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] max-w-[80%] flex items-center gap-2 mb-1 font-normal text-[12px]'>
+          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%] flex items-center gap-2 mb-1 font-normal text-[12px]'>
             {categories.map((category, index) => (
               <div
                 key={index}
@@ -90,7 +90,7 @@ function App() {
           {activeCategory === "fun" && <FunInfo />}
         </div>
         <div className="text-[#737373] flex justify-center mt-4 ">
-          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] max-w-[80%]'>
+          <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%]'>
             <h1 className='text-[18px] text-[#ffff]'>Writings</h1>
             <div className='flex flex-col gap-2 mt-3 text-[#d3d3ccb0] text-[14px] '>
               <div className='flex justify-between'>

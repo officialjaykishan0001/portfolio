@@ -2,7 +2,7 @@ import React from 'react'
 
 const WebappsInfo = () => {
     return (
-        <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] max-w-[80%]'>
+        <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%]'>
             <div className='flex justify-between'>
                 <div className='flex items-center '>
                     <h1 className='text-[#D4D4D4] hover:text-[#EBE3AC] cursor-pointer text-[14px]'>Jaxai </h1>
