@@ -93,15 +93,15 @@ function App() {
           <div className='px-6 w-full lg:max-w-[50%] md:max-w-[60%] sm:max-w-[80%] max-w-[100%]'>
             <h1 className='text-[18px] text-[#ffff]'>Writings</h1>
             <div className='flex flex-col gap-2 mt-3 text-[#d3d3ccb0] text-[14px] '>
-              <div className='flex justify-between'>
+              <div className='flex justify-between sm:flex-nowrap flex-wrap'>
                 <span className='hover:text-[#EBE3AC] cursor-pointer'>How to use reactjs on windows 7</span>
                 <p>26 Jan, 2025</p>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between sm:flex-nowrap flex-wrap'>
                 <span className='hover:text-[#EBE3AC] cursor-pointer'>Quick start-up on cmake</span>
                 <p>31 Dec, 2024</p>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between sm:flex-nowrap flex-wrap'>
                 <span className='hover:text-[#EBE3AC] cursor-pointer'>Automation Quick Guide for begineer</span>
                 <p>2 Feb, 2025</p>
               </div>
